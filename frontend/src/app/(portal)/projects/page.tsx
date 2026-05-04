@@ -13,6 +13,7 @@ export type Project = {
   id: string;
   name: string;
   description?: string;
+  workspace_type: string;
   status: string;
   member_count: number;
   source_count: number;
